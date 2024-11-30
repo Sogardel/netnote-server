@@ -51,7 +51,7 @@ La pornirea aplicației, Spring Boot configurează contextul aplicației și por
 **Instrucțiuni pentru rulare**
 Asigură-te că ai instalat următoarele:
 
-Java 17+
+Java 17+ </br>
 Orice IDE cu suport Maven.
 Maven (dacă rulezi din terminal).
 Descarcă codul sursă și incarca proiectul în IDE:
