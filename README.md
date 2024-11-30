@@ -52,27 +52,26 @@ La pornirea aplicației, Spring Boot configurează contextul aplicației și por
 Asigură-te că ai instalat următoarele:
 
 Java 17+ </br>
-Orice IDE cu suport Maven.
-Maven (dacă rulezi din terminal).
-Descarcă codul sursă și incarca proiectul în IDE:
-Rulează aplicația:
+Orice IDE cu suport Maven.</br>
+Maven (dacă rulezi din terminal).</br>
+Descarcă codul sursă și incarca proiectul în IDE</br>
+Rulează aplicația:</br>
 
-În Eclipse:
-Click dreapta pe NetNoteApplication.java și selectează Run As -> Maven build. La goal pui spring-boot:run
-În terminal:
-mvn spring-boot:run
-Testează API-ul:
+În Eclipse:</br>
+Click dreapta pe NetNoteApplication.java și selectează Run As -> Maven build. La goal pui spring-boot:run</br>
+În terminal:</br>
+mvn spring-boot:run</br>
+Testează API-ul:</br>
 
-Folosește un browser sau Postman pentru a accesa:
-GET http://localhost:8080/netnote
-POST http://localhost:8080/netnote/my-notes
-GET http://localhost:8080/netnote/my-notes/notes
-POST http://localhost:8080/netnote/my-notes/notes cu corp:
-json
-Copy code
+Folosește un browser sau Postman pentru a accesa:</br>
+GET http://localhost:8080/netnote</br>
+POST http://localhost:8080/netnote/my-notes</br>
+GET http://localhost:8080/netnote/my-notes/notes</br>
+POST http://localhost:8080/netnote/my-notes/notes cu corp:</br>
+json</br></br>
 {
     "id": "1",
     "content": "Aceasta este prima o notita!"
 }
-
+</br>
 
